@@ -1,0 +1,18 @@
+# Content data (large files, downloaded by setup.sh)
+data/
+*.zim
+*.zim.part
+
+# PDFs (downloaded manually)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Python
+__pycache__/
+*.pyc

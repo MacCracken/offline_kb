@@ -1,0 +1,299 @@
+# Offline Knowledge Base - Content Manifest
+# Sizes are approximate. Set `enabled: false` to skip.
+# ZIM files sourced from https://library.kiwix.org
+# Run `./setup.sh <target-dir>` to download enabled content.
+
+categories:
+
+  # -- ENCYCLOPEDIAS & REFERENCE ----------------------------------
+  encyclopedia:
+    - name: Wikipedia (English, no images)
+      zim: wikipedia_en_all_nopic
+      url: https://download.kiwix.org/zim/wikipedia/
+      size: "~50GB"
+      enabled: true
+      notes: Full text of English Wikipedia without images. Best size/value ratio.
+
+    - name: Wikipedia (English, with images)
+      zim: wikipedia_en_all_maxi
+      url: https://download.kiwix.org/zim/wikipedia/
+      size: "~100GB"
+      enabled: false
+      notes: Full English Wikipedia with images. Enable instead of nopic if you have space.
+
+    - name: Wikipedia (Simple English)
+      zim: wikipedia_en_simple_all
+      url: https://download.kiwix.org/zim/wikipedia/
+      size: "~700MB"
+      enabled: true
+      notes: Simplified English Wikipedia. Good for quick lookups and language learners.
+
+    - name: Wiktionary (English)
+      zim: wiktionary_en_all
+      url: https://download.kiwix.org/zim/wiktionary/
+      size: "~6GB"
+      enabled: true
+
+    - name: Wikiquote (English)
+      zim: wikiquote_en_all
+      url: https://download.kiwix.org/zim/wikiquote/
+      size: "~500MB"
+      enabled: true
+
+  # -- SURVIVAL & MEDICAL -----------------------------------------
+  survival:
+    - name: WikiMed Medical Encyclopedia
+      zim: wikipedia_en_medicine
+      url: https://download.kiwix.org/zim/wikipedia/
+      size: "~1.5GB"
+      enabled: true
+      notes: Medical subset of Wikipedia, curated by WikiProject Medicine.
+
+    - name: WikiMed Medical Encyclopedia (with images)
+      zim: wikipedia_en_medicine_maxi
+      url: https://download.kiwix.org/zim/wikipedia/
+      size: "~3GB"
+      enabled: false
+      notes: Medical Wikipedia with images for visual diagnosis reference.
+
+    - name: Where There Is No Doctor
+      type: pdf
+      url: https://hesperian.org/books-and-resources/
+      size: "~20MB"
+      enabled: true
+      notes: >
+        Classic field medical reference for areas without access to doctors.
+        Download manually from Hesperian (free).
+
+    - name: Where There Is No Dentist
+      type: pdf
+      url: https://hesperian.org/books-and-resources/
+      size: "~10MB"
+      enabled: true
+      notes: Companion dental guide from Hesperian.
+
+    - name: A Book for Midwives
+      type: pdf
+      url: https://hesperian.org/books-and-resources/
+      size: "~15MB"
+      enabled: true
+      notes: Hesperian guide to pregnancy and birth care.
+
+    - name: FM 21-76 US Army Survival Manual
+      type: pdf
+      size: "~15MB"
+      enabled: true
+      notes: Public domain military survival manual. Shelter, water, food, navigation.
+
+    - name: FM 5-31 Booby Traps Field Manual
+      type: pdf
+      size: "~10MB"
+      enabled: false
+      notes: Public domain military field manual.
+
+    - name: FM 3-06 Urban Operations
+      type: pdf
+      size: "~12MB"
+      enabled: false
+      notes: Public domain military urban ops manual.
+
+    - name: FEMA Emergency Preparedness Guides
+      type: pdf
+      url: https://www.ready.gov/publications
+      size: "~50MB"
+      enabled: true
+      notes: Collection of FEMA preparedness guides (public domain).
+
+    - name: Edible & Medicinal Plants Reference
+      type: pdf
+      size: "~30MB"
+      enabled: true
+      notes: Plant identification guides. Source from public domain references.
+
+    - name: First Aid Manual (Red Cross)
+      type: pdf
+      size: "~15MB"
+      enabled: true
+      notes: Standard first aid reference.
+
+  # -- HOW-TO & REPAIR --------------------------------------------
+  howto:
+    - name: iFixit Repair Guides
+      zim: ifixit_en_all
+      url: https://download.kiwix.org/zim/ifixit/
+      size: "~3GB"
+      enabled: true
+      notes: Device teardowns and repair guides for electronics and appliances.
+
+    - name: Wikibooks (English)
+      zim: wikibooks_en_all
+      url: https://download.kiwix.org/zim/wikibooks/
+      size: "~1GB"
+      enabled: true
+      notes: Open-content textbooks on computing, science, languages, and more.
+
+    - name: Wikiversity (English)
+      zim: wikiversity_en_all
+      url: https://download.kiwix.org/zim/wikiversity/
+      size: "~500MB"
+      enabled: true
+
+    - name: Wikihow (English)
+      zim: wikihow_en_all
+      url: https://download.kiwix.org/zim/wikihow/
+      size: "~2GB"
+      enabled: true
+      notes: Practical how-to articles on thousands of topics.
+
+    - name: Appropriate Technology (Practical Action)
+      zim: fas-military-medicine_en_all
+      url: https://download.kiwix.org/zim/other/
+      size: "~200MB"
+      enabled: false
+      notes: Low-tech solutions for water, energy, agriculture, shelter.
+
+  # -- TRAVEL & MAPS ----------------------------------------------
+  travel:
+    - name: Wikivoyage (English)
+      zim: wikivoyage_en_all
+      url: https://download.kiwix.org/zim/wikivoyage/
+      size: "~800MB"
+      enabled: true
+
+    - name: OpenStreetMap (regional extracts)
+      type: osm
+      url: https://download.geofabrik.de/
+      size: varies
+      enabled: false
+      notes: >
+        Download .mbtiles or .osm.pbf for your region.
+        Requires separate viewer (e.g., tileserver-gl).
+
+    - name: CIA World Factbook
+      zim: zimit.scraper.ted.com_en_all
+      url: https://download.kiwix.org/zim/other/
+      size: "~500MB"
+      enabled: false
+      notes: Country profiles, demographics, geography, and government info.
+
+  # -- TECH & PROGRAMMING -----------------------------------------
+  tech:
+    - name: StackOverflow
+      zim: stackoverflow.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~28GB"
+      enabled: false
+      notes: All of StackOverflow. Invaluable for offline development.
+
+    - name: SuperUser
+      zim: superuser.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~3GB"
+      enabled: false
+
+    - name: ServerFault
+      zim: serverfault.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~2GB"
+      enabled: false
+
+    - name: Ask Ubuntu
+      zim: askubuntu.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~2GB"
+      enabled: false
+
+    - name: Unix & Linux Stack Exchange
+      zim: unix.stackexchange.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~1GB"
+      enabled: false
+
+    - name: Electronics Stack Exchange
+      zim: electronics.stackexchange.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~1GB"
+      enabled: false
+      notes: Circuit design, Arduino, embedded systems Q&A.
+
+    - name: Raspberry Pi Stack Exchange
+      zim: raspberrypi.stackexchange.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~200MB"
+      enabled: false
+
+  # -- BOOKS & LITERATURE ------------------------------------------
+  books:
+    - name: Project Gutenberg (full)
+      zim: gutenberg_en_all
+      url: https://download.kiwix.org/zim/gutenberg/
+      size: "~75GB"
+      enabled: false
+      notes: 60,000+ public domain books.
+
+    - name: Project Gutenberg (top)
+      zim: gutenberg_en_top
+      url: https://download.kiwix.org/zim/gutenberg/
+      size: "~2GB"
+      enabled: true
+      notes: Most popular Gutenberg books. Good starting point.
+
+  # -- EDUCATION ---------------------------------------------------
+  education:
+    - name: Khan Academy (English)
+      zim: khan_en_all
+      url: https://download.kiwix.org/zim/khan/
+      size: "~45GB"
+      enabled: false
+      notes: Math, science, computing, economics. Video-heavy.
+
+    - name: TED Talks
+      zim: ted_en_all
+      url: https://download.kiwix.org/zim/ted/
+      size: "~25GB"
+      enabled: false
+
+    - name: Crash Course (YouTube)
+      zim: youtube.com_crashcourse_en_all
+      url: https://download.kiwix.org/zim/youtube/
+      size: "~15GB"
+      enabled: false
+      notes: Educational video series covering science, history, and more.
+
+  # -- AGRICULTURE & HOMESTEADING ----------------------------------
+  homesteading:
+    - name: Practical Action Technical Briefs
+      type: pdf
+      url: https://practicalaction.org/knowledge-centre/
+      size: "~200MB"
+      enabled: true
+      notes: >
+        Low-tech solutions for water purification, food preservation,
+        energy generation, and construction. Download collection manually.
+
+    - name: FAO Agricultural Manuals
+      type: pdf
+      url: https://www.fao.org/documents/
+      size: "~100MB"
+      enabled: true
+      notes: Food and Agriculture Organization guides on farming, livestock, and food safety.
+
+    - name: Soil and Health Library
+      type: pdf
+      size: "~50MB"
+      enabled: true
+      notes: Public domain books on organic farming, composting, and soil science.
+
+  # -- COMMUNICATION & RADIO --------------------------------------
+  comms:
+    - name: Amateur Radio License Manual
+      type: pdf
+      size: "~20MB"
+      enabled: true
+      notes: Ham radio study guides and frequency references.
+
+    - name: ARRL Handbook Excerpts
+      type: pdf
+      size: "~15MB"
+      enabled: false
+      notes: Radio electronics and antenna building (public domain excerpts).

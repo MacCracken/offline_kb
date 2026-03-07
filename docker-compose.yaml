@@ -1,0 +1,14 @@
+services:
+  offline-kb:
+    build: .
+    container_name: offline-kb
+    ports:
+      - "8888:8888"   # kiwix-serve (ZIM content)
+      - "8080:8080"   # landing page / portal
+    volumes:
+      # Mount your SSD or local storage directory here
+      - ./data:/data
+    restart: unless-stopped
+    environment:
+      - KIWIX_PORT=8888
+      - PORTAL_PORT=8080
