@@ -284,6 +284,162 @@ categories:
       enabled: true
       notes: Public domain books on organic farming, composting, and soil science.
 
+  # -- GARDENING, FARMING & PONICS --------------------------------
+  gardening:
+    - name: Gardening Stack Exchange
+      zim: gardening.stackexchange.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~200MB"
+      enabled: true
+      notes: Q&A on plant care, pest control, soil, composting, and garden design.
+
+    - name: Sustainable Living Stack Exchange
+      zim: sustainability.stackexchange.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~50MB"
+      enabled: true
+      notes: Q&A on sustainable practices, permaculture, and self-sufficiency.
+
+    - name: FAO Farmer Field School Manuals
+      type: pdf
+      url: https://www.fao.org/farmer-field-schools/
+      size: "~150MB"
+      enabled: true
+      notes: Step-by-step crop production, integrated pest management, and soil health guides.
+
+    - name: FAO Small-Scale Aquaponics Guide
+      type: pdf
+      url: https://www.fao.org/documents/card/en/c/i4021e/
+      size: "~20MB"
+      enabled: true
+      notes: >
+        "Small-scale aquaponic food production" (FAO Technical Paper 589).
+        Comprehensive guide to building and running aquaponic systems.
+
+    - name: Aquaponics Made Easy (Oklahoma State / Extension)
+      type: pdf
+      size: "~10MB"
+      enabled: true
+      notes: University extension guide covering DIY aquaponics system design and fish/plant pairing.
+
+    - name: Hydroponics - A Practical Guide for the Soilless Grower
+      type: pdf
+      size: "~15MB"
+      enabled: true
+      notes: >
+        Covers nutrient solutions, growing media, system types (NFT, DWC, drip, ebb & flow),
+        and crop-specific guidance. Source from public domain or open-access editions.
+
+    - name: USDA Backyard Conservation / Home Gardening Guides
+      type: pdf
+      url: https://www.nrcs.usda.gov/conservation-basics/conservation-by-state
+      size: "~30MB"
+      enabled: true
+      notes: USDA/NRCS guides on composting, rain gardens, soil health, and backyard farming.
+
+    - name: Permaculture - A Designers' Manual (Notes & Summaries)
+      type: pdf
+      size: "~25MB"
+      enabled: true
+      notes: >
+        Open-access permaculture design principles, guild planting, water harvesting,
+        and food forest design. Source from public domain summaries and extension publications.
+
+    - name: Extension.org Gardening & Small Farms Collection
+      type: pdf
+      url: https://www.extension.org/
+      size: "~100MB"
+      enabled: true
+      notes: >
+        US cooperative extension publications on vegetable gardening, raised beds,
+        season extension, small-scale farming, and livestock basics.
+
+    - name: Practical Hydroponics & Greenhouses
+      type: pdf
+      size: "~20MB"
+      enabled: true
+      notes: >
+        DIY hydroponic builds (Kratky, DWC, NFT, Dutch bucket), nutrient mixing,
+        pH management, and greenhouse climate control.
+
+  # -- BUILDING & CONSTRUCTION ------------------------------------
+  building:
+    - name: Humanitarianlibrary.org (Shelter & Settlement)
+      type: pdf
+      url: https://www.humanitarianlibrary.org/
+      size: "~150MB"
+      enabled: true
+      notes: >
+        Open-access collection on emergency shelter, transitional housing,
+        and settlement planning from humanitarian organizations.
+
+    - name: FAO Farm Structures & Buildings
+      type: pdf
+      url: https://www.fao.org/documents/
+      size: "~30MB"
+      enabled: true
+      notes: Guides on animal housing, storage buildings, fencing, and farm workshop design.
+
+    - name: Earthbag Building Guide (CalEarth / Open Source)
+      type: pdf
+      size: "~20MB"
+      enabled: true
+      notes: Superadobe and earthbag construction techniques. Low-cost, disaster-resistant shelter.
+
+    - name: The Timber Framing Book (Public Domain Carpentry)
+      type: pdf
+      size: "~25MB"
+      enabled: true
+      notes: Traditional joinery, post-and-beam construction, and hand-cut timber framing.
+
+    - name: Cob Building & Natural Plasters
+      type: pdf
+      size: "~15MB"
+      enabled: true
+      notes: Earth-based building with cob, adobe, rammed earth, and lime/clay plasters.
+
+    - name: Rocket Mass Heater Builder's Guide
+      type: pdf
+      size: "~10MB"
+      enabled: true
+      notes: Ultra-efficient wood-burning heater design for off-grid heating.
+
+    - name: Off-Grid Solar Power Handbook
+      type: pdf
+      size: "~20MB"
+      enabled: true
+      notes: >
+        Solar panel sizing, battery banks, charge controllers, inverters,
+        and wiring for standalone off-grid systems.
+
+    - name: Wind & Micro-Hydro Power (Practical Action)
+      type: pdf
+      url: https://practicalaction.org/knowledge-centre/
+      size: "~15MB"
+      enabled: true
+      notes: Small-scale wind turbine and micro-hydro generator design and installation.
+
+    - name: Plumbing & Rainwater Harvesting
+      type: pdf
+      size: "~20MB"
+      enabled: true
+      notes: >
+        Gravity-fed water systems, rainwater collection and filtration,
+        basic plumbing, and greywater recycling.
+
+    - name: Concrete & Masonry Field Guide
+      type: pdf
+      size: "~15MB"
+      enabled: true
+      notes: Mixing ratios, block laying, foundations, retaining walls, and basic structural design.
+
+    - name: Home Improvement Stack Exchange
+      zim: diy.stackexchange.com_en_all
+      url: https://download.kiwix.org/zim/stack_exchange/
+      size: "~500MB"
+      enabled: true
+      notes: Q&A on electrical, plumbing, carpentry, HVAC, and general home construction.
+
   # -- COMMUNICATION & RADIO --------------------------------------
   comms:
     - name: Amateur Radio License Manual
